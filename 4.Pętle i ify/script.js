@@ -24,7 +24,7 @@ if(x > y && x > z){
 //Zadanie 3:
 
 for (let i=0; i<10; i++) {
-    console.log("Lubię Java");
+    console.log("Lubię Javascript");
 }
 
 //Zadanie 4:
@@ -79,4 +79,6 @@ for(let i = 1; i <= star; i++){
     console.log(result);
     result = ""
 }
+
+b)
 
