@@ -1,6 +1,10 @@
 //Zadanie 1:
 
-
+let number = 6;
+let name = "Kamil";
+let mix = 2 + "dwa";
+let flag = true ;
+let special = null;
 
 
 
