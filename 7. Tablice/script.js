@@ -114,6 +114,8 @@ console.log(func(t2));
 
 //Zadanie 5
 
+const t2 = [1, 2, 3, 4, 5, 22, 33, 44];
+
 function A(tab){
     const sum = tab.reduce((a,b)=>a+b);
     const avg = sum / tab.length;
@@ -135,6 +137,49 @@ x(t2);
 
 //Zadanie 7
 
+const arr  = [1, 2, 43, 4, 5, 22, 3, 44];
+
+function sortArr(arr){
+  let sortedArr = arr.sort((a,b)=>a-b);
+  console.log(sortedArr);
+}
+
+sortArr(arr)
+
+//Zadanie 8
+
+const arr1  = [1, 2, 43, 4, 5, 22, 3, 44];
+const arr2  = [3,6,76,34,333];
+
+
+function concatArr(arr1, arr2){
+    let newArr = arr1.concat(arr2);
+   console.log(newArr);
+  }
+
+  concatArr(arr1,arr2);
+
+//Zadanie 9
+
+const arr  = [1, 2, 43, 4, 5, 22, 3, 44];
+
+
+ function removal(arr, arrEl){
+    console.log(arr.filter((a)=>a!=arrEl));
+  }
+
+removal(arr,arr[4])
+
+//Zadanie 10
+
+const arr  = [1, 2, 43, 4, 5, 22, 3, 44];
+
+
+ function oppositeSign(arr){
+    console.log(arr.map((e)=>e*-1));
+  }
+
+oppositeSign(arr)
 
 
 
