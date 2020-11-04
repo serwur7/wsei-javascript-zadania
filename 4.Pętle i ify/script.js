@@ -67,7 +67,7 @@ for (i=1; i < 101; i++){
 
 //Zadanie 8:
 
-a)
+//a)
 
 let star = 5;
 let result = '';
@@ -80,5 +80,95 @@ for(let i = 1; i <= star; i++){
     result = ""
 }
 
-b)
+//b)
+
+for(let i=1;i<=5;i++){
+   
+    let row ='';
+    for(let j =5-i;j>0;j--){
+        row+=' ';
+    }
+    for(let k =0;k<i;k++){
+        row+='* ';
+    }
+   
+    console.log(row);
+}
+
+//c)
+
+for(let i=1;i<=5;i++){
+   
+    let row ='';
+    for(let j =5-i;j>0;j--){
+        row+=' ';
+    }
+    if(i==1){
+     row+='*';
+   
+    }else if(i==2){
+      row+='***';
+    }
+    else{
+      row+='***';
+      for(let k =2;k<i;k++){
+        row+='**';
+    }
+    }
+    
+    console.log(row);
+}
+
+//d)
+
+for(let i=1;i<=5;i++){
+   
+    let row ='';
+
+    for(let j =0;j<i;j++){
+        row+='*';
+    }
+    let number=i;
+    for(let k =5;k>i;k--){
+        row+=number;
+        number++;
+    }
+    console.log(row);
+}
+
+console.log('-'.repeat(5));
+
+for(let i=5;i>0;i--){
+   
+    let row ='';
+
+    for(let k =1;k<=i;k++){
+        row+='*';
+    }
+    let number =i
+    for(let j =5;j>i;j--){
+      row+=number;
+       number++;
+    }
+
+    console.log(row);
+}
+
+//e)
+
+for(let i=1;i<=5;i++){
+   
+    let row ='';
+    for(let j =5-i;j>0;j--){
+        row+=' ';
+    }
+    for(let k =0;k<i;k++){
+        row+='* ';
+    }
+   
+    console.log(row);
+}
+for(let i=1;i<=3;i++){
+  console.log(' '.repeat(4)+ '*');
+}
 
